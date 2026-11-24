@@ -1,0 +1,11 @@
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+.pytest_cache/
+nltk_data/
+*.pyc
+*.zip
+.env
+data/new_openalex_response.json
