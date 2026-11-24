@@ -1,0 +1,19 @@
+[
+  {
+    "url": "https://api.openalex.org/works",
+    "params": {
+      "search": "(\"artificial intelligence\" OR \"generative AI\" OR ChatGPT)",
+      "filter": "from_publication_date:2025-11-24,to_publication_date:2026-11-23,language:en,type:article,is_retracted:false,best_oa_location.license:cc-by,primary_topic.subfield.id:3304",
+      "sort": "cited_by_count:desc",
+      "select": "id,doi,display_name,publication_date,authorships,primary_location,best_oa_location,abstract_inverted_index,language,type,is_retracted,primary_topic",
+      "per-page": 200,
+      "page": 1
+    },
+    "status": 200,
+    "retrieved_at": "2026-11-23T12:30:32.440917+00:00",
+    "sha256": "e44c0b772bc9a5a9b289f9f396efd75bd16cdcbc4fdbe5d42da5a9532b39222c",
+    "response_file": "openalex_page_01.json",
+    "records": 200,
+    "total_matches": 27835
+  }
+]
